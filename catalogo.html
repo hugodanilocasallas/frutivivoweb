@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+            <a class="text-2xl font-bold text-blue-600" href="index.html">Fruti Vivo</a>
+            <nav>
+                <a href="index.html#contacto" class="text-gray-700 mx-2 hover:text-blue-500">Contacto</a>
+                <a href="catalogo.html" class="text-gray-700 mx-2 hover:text-blue-500">Productos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto py-10 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Nuestros Productos</h2>
+
+        <!-- Lista de productos -->
+        <div class="space-y-6">
+
+            <!-- Producto 1 -->
+            <div class="bg-white shadow-md rounded-lg p-4 flex flex-col md:flex-row items-center md:items-start">
+                <img src="imagenes/salsa_cacao.jpg" alt="Producto 1" 
+                     class="w-full md:w-40 h-80 object-cover rounded-lg mb-4 md:mb-0 md:mr-6">
+                <div class="flex-1 text-center md:text-left">
+                    <h3 class="text-xl font-semibold mb-2">Salsa de cacao</h3>
+                    <p class="text-gray-600 mb-4">Deliciosa salsa de cacao realizada con los mas altos estandares de la insdustria
+                    </p>
+                    <a href="salsa_cacao.html">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                            Detalles
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="bg-white shadow-md rounded-lg p-4 flex flex-col md:flex-row items-center md:items-start">
+                <img src="img/producto2.jpg" alt="Producto 2"
+                     class="w-full md:w-40 h-40 object-cover rounded-lg mb-4 md:mb-0 md:mr-6">
+                <div class="flex-1 text-center md:text-left">
+                    <h3 class="text-xl font-semibold mb-2">Producto 2</h3>
+                    <p class="text-gray-600 mb-4">Otro texto descriptivo breve que explica características básicas.</p>
+                   <a href="salsa_cacao.html">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                            Detalles
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="bg-white shadow-md rounded-lg p-4 flex flex-col md:flex-row items-center md:items-start">
+                <img src="img/producto3.jpg" alt="Producto 3"
+                     class="w-full md:w-40 h-40 object-cover rounded-lg mb-4 md:mb-0 md:mr-6">
+                <div class="flex-1 text-center md:text-left">
+                    <h3 class="text-xl font-semibold mb-2">Producto 3</h3>
+                    <p class="text-gray-600 mb-4">Tercer producto con una breve descripción para captar la atención.</p>
+                    <a href="salsa_cacao.html">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                            Detalles
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 text-center py-4 mt-10">
+        &copy; 2025 Mi Empresa. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
